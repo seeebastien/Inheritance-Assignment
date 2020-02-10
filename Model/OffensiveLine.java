@@ -7,10 +7,10 @@ public class OffensiveLine {
     private FootballPlayer offensiveTackle;
 
 
-    public OffensiveLine() {
-        Height heightOne = new Height(6,6);
-        Height heightTwo = new Height(6,4);
-        Height heightThree = new Height(6,6);
+    OffensiveLine() {
+        Height heightOne = new Height(6, 6);
+        Height heightTwo = new Height(6, 4);
+        Height heightThree = new Height(6, 6);
 
         center = new FootballPlayer("Sebastien", heightOne, 350, "Philly",
                 "Carroll", 65, "center");
@@ -20,7 +20,10 @@ public class OffensiveLine {
                 "Carroll", 64, "tackle");
     }
 
-    public int averageHeight() {
+    /**
+     * @return Average height of all offensive line members in inches
+     */
+    int averageHeight() {
         int average;
 
         average = center.getHeight().getFeet() * 12 + center.getHeight().getInches() + (offensiveGuard.getHeight().getFeet()
@@ -30,6 +33,9 @@ public class OffensiveLine {
         return average;
     }
 
+    /**
+     * @return Description of all offensive line members
+     */
     @Override
     public String toString() {
         return center.toString() + "\n" + offensiveGuard.toString() + "\n" + offensiveTackle.toString();
