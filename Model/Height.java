@@ -1,3 +1,14 @@
+/**
+ * File name: Height.java
+ * Short description: Height data class
+ * IST 242
+ * Assignment: L02 Assignment-Inheritance
+ *
+ * @author Sebastien Louis
+ * @version 2/9/2020
+ */
+
+
 package Model;
 
 public class Height {

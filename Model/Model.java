@@ -1,3 +1,14 @@
+/**
+ * File name: Model.java
+ * Short description: Controller class
+ * IST 242
+ * Assignment: L02 Assignment-Inheritance
+ *
+ * @author Sebastien Louis
+ * @version 2/9/2020
+ */
+
+
 package Model;
 
 public class Model {
@@ -8,9 +19,9 @@ public class Model {
         System.out.println(offensiveLine.toString());
         System.out.println("Average height for offensive line is: " + offensiveLine.averageHeight());
 
-        Height heightOne = new Height(6,5);
-        Height heightTwo = new Height(6,1);
-        Height heightThree = new Height(5,11);
+        Height heightOne = new Height(6, 5);
+        Height heightTwo = new Height(6, 1);
+        Height heightThree = new Height(5, 11);
 
         FootballPlayer playerOne = new FootballPlayer("Bob", heightOne, 220, "Philly",
                 "Carroll", 8, "Wide Receiver");

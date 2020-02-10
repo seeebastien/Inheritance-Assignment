@@ -1,3 +1,14 @@
+/**
+ * File name: App.java
+ * Short description: Main class with output comments
+ * IST 242
+ * Assignment: L02 Assignment-Inheritance
+ *
+ * @author Sebastien Louis
+ * @version 2/9/2020
+ */
+
+
 import Model.Model;
 
 public class App {
